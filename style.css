@@ -1,0 +1,108 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container
+{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(150deg , rgb(88, 88, 88) ,rgb(1, 5, 35));
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.todo-app
+{
+    background-color: #fff;
+    width: 100%;
+    max-width: 540px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    padding: 40px;
+    border-radius: 15px;
+    margin-bottom: 250px;
+}
+
+.todo-app h2
+{
+    color: rgb(21, 21, 21);
+    font-weight: bolder;
+}
+
+.fa-solid
+{
+    color: rgb(0, 8, 255);
+}
+
+.input-text
+{
+    margin-top: 50px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-bottom: 25px;
+    background-color: gainsboro;
+    border-radius: 30px;
+}
+
+input
+{
+    /* width: 100%; */
+    flex: 1;
+    padding: 15px;
+    border: none;
+    outline: none;
+    background-color: gainsboro;
+    border-radius: 30px;
+}
+::placeholder
+{
+    color: rgb(72, 72, 72);
+}
+button
+{
+   padding: 15px;
+   padding-right: 30px;
+   padding-left: 30px;
+   border: none;
+   border-radius: 30px;
+   background-color: rgb(17, 0, 255);
+   color: white;
+   cursor: pointer;
+   font-size: 15px;
+}
+
+
+
+ul li
+{
+    list-style: none;
+    /* line height se bhi ho jayega but padding shi hai */
+    /* line-height: 2.5; */
+    padding: 15px;
+    font-size: 17px;
+    padding-left: 40px;
+    user-select: none;
+}
+
+ul li span
+{
+   float: right;
+   margin-right: 20px;
+   /* width se bhi ho skta hai and padding */
+   /* width: 30px; */
+   padding: 3px 10px;
+   height: 30px;
+   text-align: center;
+   font-size: 22px;
+}
+
+ul li span:hover
+{
+    background-color: gainsboro;
+}
